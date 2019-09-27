@@ -6,7 +6,7 @@ services:
         build:
             context: .
             dockerfile: Dockerfile        
-        image: parrotstream/postgres:latest
+        image: comchangs/postgres:latest
         networks:
             - parrot
         ports:
@@ -17,6 +17,6 @@ services:
 networks:
     default:
         external:
-            name: parrot
+            name: comchangs
     parrot:
         driver: bridge

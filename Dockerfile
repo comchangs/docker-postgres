@@ -1,6 +1,6 @@
 FROM postgres:10.5
 
-MAINTAINER Matteo Capitanio <matteo.capitanio@gmail.com>
+MAINTAINER Murry Jeong <comchangs@gmail.com>
 
 ENV PG_MAJOR 10
 

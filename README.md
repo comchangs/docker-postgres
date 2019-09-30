@@ -27,7 +27,7 @@ For example, if you want the latest PostgreSQL major release 9.5 (actually 9.5.7
 
 Run with Docker Compose:
 
-    docker-compose -p parrot up
+    docker-compose -p comchangs up
 
 Setting the project name to *parrot* with the **-p** option is useful to share the network created with the containers coming from other Parrot docker-compose.yml configurations.
 
@@ -38,7 +38,3 @@ You can access PostgreSql using:
     username: postgres
     password: postgres
 
-### Available tags:
-
-- PostgreSQL 9.6 ([9.6](https://github.com/comchangs/docker-postgres/blob/9.6/Dockerfile), [latest](https://github.com/comchangs/docker-postgres/blob/latest/Dockerfile))
-- PostgreSQL 9.5 ([9.5](https://github.com/comchangs/docker-postgres/blob/9.5/Dockerfile))
